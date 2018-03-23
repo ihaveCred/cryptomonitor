@@ -11,8 +11,11 @@ queryCTL(config).then(r => {
     console.log(r);
 });
 
-queryCTL(config, 2, (r) => {
+let margincall = 2;
+let margincall_callback = (r) => {
     console.log("alert!! " + r);
-}).then(r => {
+}
+
+queryCTL(config, margincall, margincall_callback).then(r => {
     console.log(r);
 });
