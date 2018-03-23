@@ -10,3 +10,12 @@ var queryCTL = require("../index");
 queryCTL(config).then(r => {
     console.log(r);
 });
+
+let margincall = 2;
+let margincall_callback = (r) => {
+    console.log("alert!! " + r);
+}
+
+queryCTL(config, margincall, margincall_callback).then(r => {
+    console.log(r);
+});
