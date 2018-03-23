@@ -10,3 +10,9 @@ var queryCTL = require("../index");
 queryCTL(config).then(r => {
     console.log(r);
 });
+
+queryCTL(config, 2, (r) => {
+    console.log("alert!! " + r);
+}).then(r => {
+    console.log(r);
+});

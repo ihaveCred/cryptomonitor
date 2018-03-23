@@ -23,3 +23,25 @@ queryCTL(config).then(rate => {
 });
 
 ```
+
+or
+
+```
+
+const queryCTL = require("cryptomonitor");
+let config = {
+    curreny: "USD",
+    coin: "ethereum",
+    collateralCoinCount: 1.2,
+    debt: 366.0851651171458
+};
+let margincall = 2;//200%
+
+queryCTL(config, 2, (r) => {
+    console.log("margincall alert!! " + r);
+}).then(r => {
+    console.log(r);
+});
+
+```
+
