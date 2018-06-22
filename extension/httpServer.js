@@ -1,5 +1,5 @@
 ﻿
-const queryCTL = require("./queryCTL");
+const queryCTL = require("../lib/queryCTL");
 const express = require('express');
 const bodyParser = require('body-parser')
 
@@ -32,6 +32,7 @@ app.post('/ifttt/v1/triggers/margincall', async function (req, res) {
             result.data = [
                 {
                     "posted_at": new Date().toISOString(),
+                    "created_at": new Date().toISOString(),
                     "meta": {
                         "id": uuidv4(),
                         "timestamp": parseInt(new Date().getTime() / 1000)
