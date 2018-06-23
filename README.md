@@ -64,3 +64,11 @@ test();
 
 ```
 
+## CTL ifttt extension
+Demo code in extension/httpServer.js
+
+You can find margincall service in ifttt.
+![Alt text](https://raw.githubusercontent.com/libracredit/cryptomonitor/master/Œ¢–≈Õº∆¨_20180622183856.jpg)
+
+Set your collateral eth count,lend stable coin count and alert ctl line, if your ctl is lt alert line,you will receive alert.
+![Alt text](https://raw.githubusercontent.com/libracredit/cryptomonitor/master/Œ¢–≈Õº∆¨_20180622183908.jpg)
