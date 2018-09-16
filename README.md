@@ -23,10 +23,26 @@ let config = {
             coin: "bitcoin",
             sym: "btc",
             count: 0.1
+        },
+        {
+            coin: "ht",
+            sym: "ht",
+            count: 10
+        },
+        {
+            coin: "lba",
+            sym: "lba",
+            count: 1000
+        },
+        {
+            coin: "bnb",
+            sym: "bnb",
+            count: 180
         }
     ],
     debt: 400
 };
+
 
 
 let margincall = 2;
@@ -52,4 +68,4 @@ You can find margincall service in ifttt.
 ![Alt text](https://raw.githubusercontent.com/ShenEnQ/cryptomonitor/master/img/img_20180622183856.jpg)
 
 Set your collateral eth count,lend stable coin count and alert ctl line, if your ctl is lt alert line,you will receive alert.
-![Alt text](https://raw.githubusercontent.com/ShenEnQ/cryptomonitor/master/img/img_20180622183908.jpg)
+![Alt text](https://raw.githubusercontent.com/ShenEnQ/cryptomonitor/master/img/img_20180622183908.png)
