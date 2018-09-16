@@ -23,10 +23,26 @@ let config = {
             coin: "bitcoin",
             sym: "btc",
             count: 0.1
+        },
+        {
+            coin: "ht",
+            sym: "ht",
+            count: 10
+        },
+        {
+            coin: "lba",
+            sym: "lba",
+            count: 1000
+        },
+        {
+            coin: "bnb",
+            sym: "bnb",
+            count: 180
         }
     ],
     debt: 400
 };
+
 
 
 let margincall = 2;
