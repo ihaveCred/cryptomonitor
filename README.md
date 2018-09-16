@@ -48,6 +48,7 @@ test();
 Demo code in extension/httpServer.js
 
 You can find margincall service in ifttt.
+
 ![Alt text](https://raw.githubusercontent.com/ShenEnQ/cryptomonitor/master/img/img_20180622183856.jpg)
 
 Set your collateral eth count,lend stable coin count and alert ctl line, if your ctl is lt alert line,you will receive alert.
